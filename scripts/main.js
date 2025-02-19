@@ -4,7 +4,7 @@ const listaCarrito = document.getElementById('listaCarrito');
 const totalCarrito = document.getElementById('totalCarrito');
 const vaciarCarritoBtn = document.getElementById('vaciarCarrito');
 
-// Almacenar los productos del carrito
+// Alamacenar los productos del carrito
 let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
 
 // Agregar un producto al carrito
